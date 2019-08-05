@@ -1,0 +1,38 @@
+.Header___3Wt6J {
+  margin-bottom: 50px;
+  text-align: center; }
+  .Header___3Wt6J a {
+    color: inherit;
+    text-decoration: none; }
+  .Header___3Wt6J p {
+    margin: 0 auto; }
+  .Header___3Wt6J h1 {
+    margin: 15px; }
+
+.Picture___1g8rU {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%; }
+
+body {
+  font-family: 'Pragmatica', sans-serif, arial;
+  font-size: 21px;
+  font-weight: 100;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #222;
+  padding: 50px 0; }
+
+a {
+  color: inherit; }
+
+video {
+  min-width: 100%;
+  max-width: 100%; }
+
+.Wrapper___2s67u {
+  max-width: 55em;
+  margin: 0 auto; }
+  .Wrapper___2s67u p {
+    max-width: 40em; }
+
