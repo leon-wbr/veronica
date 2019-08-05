@@ -1,0 +1,11 @@
+.Loading, .Loaded {
+  transition: opacity 1s;
+}
+
+.Loading {
+  opacity: 0;
+}
+
+.Loaded {
+  opacity: 1;
+}

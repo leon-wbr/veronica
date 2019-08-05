@@ -1,0 +1,32 @@
+{
+  "name": "veronica_vicente_storm",
+  "version": "1.0.0",
+  "description": "Verónica Vicente Storm's personal website",
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "imagemin-mozjpeg": "^8.0.0",
+    "imagemin-optipng": "^7.0.0",
+    "imagemin-webpack-plugin": "^2.4.2",
+    "json-loader": "^0.5.7",
+    "marked": "^0.7.0",
+    "next": "^9.0.3",
+    "next-compose-plugins": "^2.2.0",
+    "next-optimized-images": "^2.5.3",
+    "nextjs-morph-page": "^2.0.3",
+    "node-sass": "^4.12.0",
+    "plyr": "^3.5.6",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-plyr": "^2.2.0",
+    "serve": "^11.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export"
+  },
+  "author": "Leon Weber",
+  "license": "ISC"
+}

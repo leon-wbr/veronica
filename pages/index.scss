@@ -1,0 +1,29 @@
+.PortfolioList {
+  width: 100%;
+  font-weight: 600;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.PortfolioPreview {
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  line-height: 300px;
+  background-position: center;
+  background-size: cover;
+  filter: grayscale(100%);
+  font-size: 3em;
+  color: #fff;
+  background-color: black;
+  text-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+  margin-bottom: 20px;
+
+  &:hover {
+    filter: grayscale(0%);
+  }
+
+  transition: filter 1s;
+}
