@@ -11,7 +11,7 @@ const Header = () => {
 
   return (
     <header className={headerStyle.Header}>
-      {isHome && <img src="/static/veronica.jpg" className={headerStyle.Picture} />}
+      <img src="/static/veronica.jpg" className={headerStyle.Header__Picture} />
       <Link href="/">
         <a>
           <h1>Verónica Vicente Storm</h1>

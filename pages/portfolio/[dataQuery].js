@@ -5,7 +5,7 @@ import Plyr from 'react-plyr';
 import marked from 'marked';
 
 // Data
-import portfolioData from '../../data/portfolio.json';
+import portfolioData from '../../data/portfolio';
 
 // Components
 import Layout from '../../components/Layout';
@@ -14,7 +14,7 @@ import Layout from '../../components/Layout';
 import portfolioStyle from './portfolio.scss';
 
 const PortfolioPage = (portfolioItem) => {
-  const { title, file, thumb, description, type } = portfolioItem;
+  const { title, file, thumb, body, type } = portfolioItem;
   const date = new Date(portfolioItem.date);
 
   return (
@@ -25,7 +25,7 @@ const PortfolioPage = (portfolioItem) => {
         url={file}
         poster={thumb} />
       <h2>{title} ({date.getFullYear()})</h2>
-      <div dangerouslySetInnerHTML={{ __html: marked(description) }} />
+      <div dangerouslySetInnerHTML={{ __html: marked(body) }} />
     </Layout>
   );
 };

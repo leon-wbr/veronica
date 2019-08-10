@@ -3,7 +3,7 @@ import React from 'react';
 import Link from 'next/link';
 
 // Data
-import portfolioData from '../data/portfolio.json';
+import portfolioData from '../data/portfolio';
 
 // Components
 import Layout from '../components/Layout';

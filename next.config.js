@@ -3,7 +3,10 @@ const webpack = require('webpack');
 const path = require('path');
 const withPlugins = require('next-compose-plugins');
 const sass = require('@zeit/next-sass')
-const portfolioData = require('./data/portfolio.json');
+const glob = require('glob');
+
+let portfolio = glob.sync(path.resolve(__dirname, './data/portfolio/*.md'));
+portfolio = portfolio.map(x => path.basename(x, '.md'));
 
 module.exports = withPlugins([
   [sass, {
@@ -18,6 +21,16 @@ module.exports = withPlugins([
   webpack: (config, { dev }) => {
     config.plugins.push(
       new webpack.EnvironmentPlugin(process.env),
+      new webpack.DefinePlugin({
+        'portfolioList': JSON.stringify(portfolio)
+      })
+    );
+
+    config.module.rules.push(
+      {
+        test: /\.md$/,
+        use: 'raw-loader'
+      }
     );
 
     // Config to have absolute imports instead of relative imports
@@ -31,7 +44,7 @@ module.exports = withPlugins([
       '/': { page: '/' }
     }
 
-    portfolioData.forEach(item => { paths[`/portfolio/${item.id}`] = { page: '/portfolio/[dataQuery]', query: { dataQuery: item.id } } });
+    portfolio.forEach(item => { paths[`/portfolio/${item}`] = { page: '/portfolio/[dataQuery]', query: { dataQuery: item } } });
 
     return paths;
   }
