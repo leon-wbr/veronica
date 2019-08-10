@@ -211,7 +211,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("---\ntitle: Bewerbungsvideo\ndate: 2019-08-08\nfile:\nthumb: /static/bewerbung_thumb.png\ntype: video\n---\n");
+/* harmony default export */ __webpack_exports__["default"] = ("---\ntitle: Bewerbungsvideo\ndate: 2019-08-08\nfile:\nthumb: /static/bewerbung_thumb.png\ntype: video\n---\n\n**Equipment:**\n\n- Lumix GX85\n- Viltrox EF-M2 Focal Reducer\n- Walimex Pro EF 24mm T1.5\n- Canon EF 50mm f1.8 STM\n- Neewer Steadycam\n- Rode SmartLav+\n- Adobe Premiere Pro\n");
 
 /***/ }),
 
@@ -270,7 +270,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("---\ntitle: Passport\ndate: 2019-05-01\nfile: https://drive.google.com/uc?export=download&confirm=KzIA&id=152Q2W-cXtrcZqazPGoTl9Ki8a-dwM7kT\nthumb: /static/passport_thumb.png\ntype: video\n---\nSound defekt! Wird behoben.\n\nAssistenz bei Schulprojekt.\n\nEquipment:\n\n- Canon C200\n- Rode NTG4\n- Zoom H4n Pro\n- Adobe Premiere Pro\n");
+/* harmony default export */ __webpack_exports__["default"] = ("---\ntitle: Passport\ndate: 2019-05-01\nfile: https://drive.google.com/uc?export=download&confirm=KzIA&id=152Q2W-cXtrcZqazPGoTl9Ki8a-dwM7kT\nthumb: /static/passport_thumb.png\ntype: video\n---\nSound defekt! Wird behoben.\n\nAssistenz bei Schulprojekt.\n\n**Equipment:**\n\n- Canon C200\n- Rode NTG4\n- Zoom H4n Pro\n- Adobe Premiere Pro\n");
 
 /***/ }),
 
