@@ -9,7 +9,7 @@ Sound defekt! Wird behoben.
 
 Assistenz bei Schulprojekt.
 
-Equipment:
+**Equipment:**
 
 - Canon C200
 - Rode NTG4
