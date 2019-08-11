@@ -1,10 +1,12 @@
 ---
 title: Bewerbungsvideo
 date: 2019-08-08
-file:
+provider: youtube
+videoId: wXL_QA-1M-Q
 poster: /static/bewerbung_thumb.png
-type: video
 ---
+
+Bewerbungsvideo für CUBE Bikes für die Ausbildung zur Mediengestalterin Bild und Ton.
 
 **Equipment:**
 

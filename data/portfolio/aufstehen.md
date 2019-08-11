@@ -1,7 +1,7 @@
 ---
 title: Aufstehen
 date: 2019-04-27
-source: https://drive.google.com/uc?export=view&id=1_1N56tNv9RiKJiV23eCDDdvhgQ-CIqnB
+source: /static/aufstehen.mp3
 poster: /static/audio_thumb.jpg
 type: audio
 ---
