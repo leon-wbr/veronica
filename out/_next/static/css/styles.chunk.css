@@ -1,3 +1,37 @@
+.Player___1ZS7e {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden; }
+
+.Player___1ZS7e iframe,
+.Player___1ZS7e object,
+.Player___1ZS7e embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+.Player__NotAvailable___2J9RF {
+  position: relative; }
+  .Player__NotAvailable___2J9RF img, .Player__NotAvailable___2J9RF span {
+    transition: opacity .5s; }
+  .Player__NotAvailable___2J9RF img {
+    opacity: 1; }
+  .Player__NotAvailable___2J9RF span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    opacity: 0; }
+  .Player__NotAvailable___2J9RF:hover img {
+    opacity: 0.5; }
+  .Player__NotAvailable___2J9RF:hover span {
+    opacity: 1; }
+
 .Header___2Zk5C {
   margin-bottom: 50px;
   text-align: center; }
@@ -36,12 +70,8 @@ video {
   margin: 0 auto; }
   .Wrapper___3NeCO p {
     max-width: 40em; }
-
-.ErrorPage___3v4Pq {
-  text-align: center;
-  color: darkred; }
-  .ErrorPage___3v4Pq p {
-    margin: 0 auto; }
+  .Wrapper___3NeCO img {
+    max-width: 100%; }
 
 .PortfolioList___2qLs9 {
   width: 100%;

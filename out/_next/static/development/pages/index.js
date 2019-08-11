@@ -198,7 +198,7 @@ webpackContext.id = "./data/portfolio sync recursive ^\\.\\/.*\\.md$";
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("---\ntitle: Aufstehen\ndate: 2019-04-27\nfile: https://drive.google.com/uc?export=view&id=1_1N56tNv9RiKJiV23eCDDdvhgQ-CIqnB\nthumb: /static/audio_thumb.jpg\ntype: audio\n---\n\nDie Idee war, die Bedeutung von Farben in unserem Alltag darzustellen.\n\nIch habe versucht, den Tag eines Menschen zu beschreiben, der Farben sieht; aus dem Bett aufsteht, Radio hört, seine Routine durchführt, nach Hause kommt, einen Artikel über Farben liest und mit einem Freund darüber redet. Aus der Antwort seines Freundes kann man schließen, dass er keine Farben sieht und wohl blind sein muss.\n\nMan könnte denken, dass es im Falle von Audio besser gewesen wäre, Geräusche anstatt der Farben zu beschreiben, aber eine taube Person kann sehen, so dass es auch auf Video effektiv beschrieben werden könnte. Zumindest war das mein Gedanke.\n\nDer Prozess bestand darin, ein Skript mit allen Aktionen zu schreiben, die die Person an einem normalen Tag ausführen würde. Ich führte sie also aus, nahm den Sound mit dem Handy auf und schnitt es am Ende so zusammen.\n");
+/* harmony default export */ __webpack_exports__["default"] = ("---\ntitle: Aufstehen\ndate: 2019-04-27\nsource: https://drive.google.com/uc?export=view&id=1_1N56tNv9RiKJiV23eCDDdvhgQ-CIqnB\nposter: /static/audio_thumb.jpg\ntype: audio\n---\n\nDie Idee war, die Bedeutung von Farben in unserem Alltag darzustellen.\n\nIch habe versucht, den Tag eines Menschen zu beschreiben, der Farben sieht; aus dem Bett aufsteht, Radio hört, seine Routine durchführt, nach Hause kommt, einen Artikel über Farben liest und mit einem Freund darüber redet. Aus der Antwort seines Freundes kann man schließen, dass er keine Farben sieht und wohl blind sein muss.\n\nMan könnte denken, dass es im Falle von Audio besser gewesen wäre, Geräusche anstatt der Farben zu beschreiben, aber eine taube Person kann sehen, so dass es auch auf Video effektiv beschrieben werden könnte. Zumindest war das mein Gedanke.\n\nDer Prozess bestand darin, ein Skript mit allen Aktionen zu schreiben, die die Person an einem normalen Tag ausführen würde. Ich führte sie also aus, nahm den Sound mit dem Handy auf und schnitt es am Ende so zusammen.\n");
 
 /***/ }),
 
@@ -211,7 +211,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("---\ntitle: Bewerbungsvideo\ndate: 2019-08-08\nfile:\nthumb: /static/bewerbung_thumb.png\ntype: video\n---\n\n**Equipment:**\n\n- Lumix GX85\n- Viltrox EF-M2 Focal Reducer\n- Walimex Pro EF 24mm T1.5\n- Canon EF 50mm f1.8 STM\n- Neewer Steadycam\n- Rode SmartLav+\n- Adobe Premiere Pro\n");
+/* harmony default export */ __webpack_exports__["default"] = ("---\ntitle: Bewerbungsvideo\ndate: 2019-08-08\nfile:\nposter: /static/bewerbung_thumb.png\ntype: video\n---\n\n**Equipment:**\n\n- Lumix GX85\n- Viltrox EF-M2 Focal Reducer\n- Walimex Pro EF 24mm T1.5\n- Canon EF 50mm f1.8 STM\n- Neewer Steadycam\n- Rode SmartLav+\n- Adobe Premiere Pro\n");
 
 /***/ }),
 
@@ -257,7 +257,7 @@ function createPortfolio() {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("---\ntitle: Insomnio\ndate: 2017-01-01\nfile: https://drive.google.com/uc?export=view&id=19rHJzOWjkKKQhfmsBhGRs8LuMDOMVWTp\nthumb: /static/insomnio_thumb.png\ntype: video\n---\n\n\"Insomnia\" ist ein Kurzfilm, den wir für den Unterricht gedreht haben.\n\nEs geht über Schlaflosigkeit, anormalen Schlafmangel und Schwierigkeiten einzuschlafen, was manchmal zu einem Zustand der Verwirrung bei der Person führt, die darunter leidet, oder nicht in der Lage ist, die Realität vom Traum zu trennen.\n\nWir begannen mit einer kurzen Zusammenfassung der Idee. Später hatten wir es in ein Skript entwickelt und in einem Storyboard mit Zeitnotizen festgehalten. Wir haben es mit einer Sony Kamera der Schule aufgenommen. Ich habe zusammen mit Hector Gallegos \"geschauspielt\", während Bogdan Chaikovskyi es aufgenommen hat. Wir haben es dann gemeinsam im Unterricht bearbeitet.\n");
+/* harmony default export */ __webpack_exports__["default"] = ("---\ntitle: Insomnio\ndate: 2017-01-01\nfile: https://drive.google.com/uc?export=view&id=19rHJzOWjkKKQhfmsBhGRs8LuMDOMVWTp\nposter: /static/insomnio_thumb.png\ntype: video\n---\n\n\"Insomnia\" ist ein Kurzfilm, den wir für den Unterricht gedreht haben.\n\nEs geht über Schlaflosigkeit, anormalen Schlafmangel und Schwierigkeiten einzuschlafen, was manchmal zu einem Zustand der Verwirrung bei der Person führt, die darunter leidet, oder nicht in der Lage ist, die Realität vom Traum zu trennen.\n\nWir begannen mit einer kurzen Zusammenfassung der Idee. Später hatten wir es in ein Skript entwickelt und in einem Storyboard mit Zeitnotizen festgehalten. Wir haben es mit einer Sony Kamera der Schule aufgenommen. Ich habe zusammen mit Hector Gallegos \"geschauspielt\", während Bogdan Chaikovskyi es aufgenommen hat. Wir haben es dann gemeinsam im Unterricht bearbeitet.\n");
 
 /***/ }),
 
@@ -270,7 +270,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("---\ntitle: Passport\ndate: 2019-05-01\nfile: https://drive.google.com/uc?export=download&confirm=KzIA&id=152Q2W-cXtrcZqazPGoTl9Ki8a-dwM7kT\nthumb: /static/passport_thumb.png\ntype: video\n---\nSound defekt! Wird behoben.\n\nAssistenz bei Schulprojekt.\n\n**Equipment:**\n\n- Canon C200\n- Rode NTG4\n- Zoom H4n Pro\n- Adobe Premiere Pro\n");
+/* harmony default export */ __webpack_exports__["default"] = ("---\ntitle: Passport\ndate: 2019-05-01\nfile: https://drive.google.com/uc?export=download&confirm=KzIA&id=152Q2W-cXtrcZqazPGoTl9Ki8a-dwM7kT\nposter: /static/passport_thumb.png\ntype: video\n---\nSound defekt! Wird behoben.\n\nAssistenz bei Schulprojekt.\n\n**Equipment:**\n\n- Canon C200\n- Rode NTG4\n- Zoom H4n Pro\n- Adobe Premiere Pro\n");
 
 /***/ }),
 
@@ -24544,7 +24544,7 @@ var _jsxFileName = "/media/leon/Home/Projekte/VeronicaBewerbungen/Website/pages/
 var PortfolioPreview = function PortfolioPreview(props) {
   var id = props.id,
       title = props.title,
-      thumb = props.thumb;
+      poster = props.poster;
   return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
     href: "/portfolio/".concat(id),
     __source: {
@@ -24561,7 +24561,7 @@ var PortfolioPreview = function PortfolioPreview(props) {
   }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
     className: _index_scss__WEBPACK_IMPORTED_MODULE_10___default.a.PortfolioPreview,
     style: {
-      backgroundImage: "url(".concat(thumb, ")")
+      backgroundImage: "url(".concat(poster, ")")
     },
     __source: {
       fileName: _jsxFileName,
