@@ -32,10 +32,16 @@ video {
   max-width: 100%; }
 
 .Wrapper___3NeCO {
-  max-width: 55em;
+  max-width: 1200px;
   margin: 0 auto; }
   .Wrapper___3NeCO p {
     max-width: 40em; }
+
+.ErrorPage___3v4Pq {
+  text-align: center;
+  color: darkred; }
+  .ErrorPage___3v4Pq p {
+    margin: 0 auto; }
 
 .PortfolioList___2qLs9 {
   width: 100%;
