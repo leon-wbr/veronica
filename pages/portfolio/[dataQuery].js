@@ -1,7 +1,7 @@
 // Essentials
 import React from 'react';
 import { useRouter } from 'next/router'
-import Plyr from 'react-plyr';
+import Player from '../../components/Player';
 import marked from 'marked';
 
 // Data
@@ -19,11 +19,7 @@ const PortfolioPage = (portfolioItem) => {
 
   return (
     <Layout>
-      <Plyr
-        type={type}
-        title={title}
-        url={file}
-        poster={thumb} />
+      <Player {...portfolioItem} />
       <h2>{title} ({date.getFullYear()})</h2>
       <div dangerouslySetInnerHTML={{ __html: marked(body) }} />
     </Layout>

@@ -2,7 +2,7 @@
 title: Insomnio
 date: 2017-01-01
 file: https://drive.google.com/uc?export=view&id=19rHJzOWjkKKQhfmsBhGRs8LuMDOMVWTp
-thumb: /static/insomnio_thumb.png
+poster: /static/insomnio_thumb.png
 type: video
 ---
 

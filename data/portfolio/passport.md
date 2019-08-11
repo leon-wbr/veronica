@@ -2,7 +2,7 @@
 title: Passport
 date: 2019-05-01
 file: https://drive.google.com/uc?export=download&confirm=KzIA&id=152Q2W-cXtrcZqazPGoTl9Ki8a-dwM7kT
-thumb: /static/passport_thumb.png
+poster: /static/passport_thumb.png
 type: video
 ---
 Sound defekt! Wird behoben.

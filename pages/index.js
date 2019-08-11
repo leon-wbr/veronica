@@ -12,12 +12,12 @@ import Layout from '../components/Layout';
 import indexStyle from './index.scss';
 
 const PortfolioPreview = (props) => {
-  const { id, title, thumb } = props;
+  const { id, title, poster } = props;
 
   return (
     <Link href={`/portfolio/${id}`}>
       <a>
-        <div className={indexStyle.PortfolioPreview} style={{ backgroundImage: `url(${thumb})` }}>
+        <div className={indexStyle.PortfolioPreview} style={{ backgroundImage: `url(${poster})` }}>
           {title}
         </div>
       </a>
